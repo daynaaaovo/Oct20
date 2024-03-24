@@ -1,0 +1,289 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 15px;
+}
+
+.banner-caption p {
+    color: white;
+}
+/* End Banner Overlay */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Ftaylor-swift-icon--444871269445633385%2F&psig=AOvVaw2gnaHWiCQb0odY8m8JRYlL&ust=1710595013277000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMjHxJCt9oQDFQAAAAAdAAAAABAI);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wattpad.com%2F1109229804-%25F0%259D%2597%258B%25F0%259D%2596%25BE%25F0%259D%2596%25BD%25F0%259D%2596%25BE%25F0%259D%2597%258C%25F0%259D%2597%2582%25F0%259D%2597%2580%25F0%259D%2597%2587-%25F0%259D%2597%2592%25F0%259D%2597%2588%25F0%259D%2597%258E%25F0%259D%2597%258B-%25F0%259D%2597%2585%25F0%259D%2597%2588%25F0%259D%2597%2580%25F0%259D%2597%2588-%25F0%259D%2597%2582%25F0%259D%2596%25BC%25F0%259D%2597%2588%25F0%259D%2597%2587-%25F0%259D%2597%258C%25F0%259D%2597%2581%25F0%259D%2597%2588%25F0%259D%2597%2589-olivia-rodrigo-part&psig=AOvVaw0q2V0Mx075_ztxjJi8C8r1&ust=1710595379361000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNiW_7-u9oQDFQAAAAAdAAAAABAE);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 80% 700px;
+}
+
+/* Form Styles */
+form {
+    background-color: aliceblue;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;background-repeat: no-repeat;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid pink;
+}
+input, select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+input [type="submit"]:hover
+input [type="submit"]:focus {
+    border: 1px solid antiquewhite;
+    background-color: bisque;
+}
+/* End form Styles */
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: aquamarine;
+    color: beige;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+table th, table td {
+    border: 1px solid rgb(212, 181, 186);
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: azure;
+}
+
+table th:nth-child(2), table th:nth-child(3)
+table td:nth-child(2), table td:nth-child(3) {
+    text-align: center;
+}
+
+.col-Singer {
+    width: 40%;
+}
+
+.col-Song, .col-album, .col-duration {
+    width: 20%;
+}
+/* End Table Styles */
+
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+p {
+    color: coral;
+}
+footer p {
+    color: bisque;
+}
+footer p {
+    color: cadetblue;
+}
+
+h1 {
+    color: pink;
+    text-align: center;
+}
+
+header p {
+    color: blueviolet;
+}
+
+header p span {
+    color: black;
+}
+
+.color {
+    background-color: pink;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 87%;
+}
+
+img {max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-area {
+
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.fix {
+    clear: both;
+}
+
+p {
+    color: cyan;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    font-size: 85%;
+    color: darksalmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    color: lightcoral;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: violet;
+}
+
+aside {
+    color: lavender;
+}
+
+header p span {
+    color: rgb(191, 106, 150);
+}
+
+.highlight {
+    color: lightpink;
+    background-color: aliceblue;
+}
+
+.brand-color {
+    color: orchid;
+    background-color: beige;
+}
+
+/*Site Naivgation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: fuchsia;
+    padding: 10px 20px;
+    border: 3px solid black;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: aliceblue;
+}
+/* End of Site Navigation */
+
+
